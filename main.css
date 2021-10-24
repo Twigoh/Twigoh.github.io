@@ -22,7 +22,6 @@ hr {
 
 .logo {
   width: 120px;
-
 }
  
 .main {
@@ -36,6 +35,8 @@ hr {
 }
 
 .title {
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-size: 58px;
   color: white;
   text-transform: uppercase;
@@ -93,15 +94,16 @@ button:hover {
 
     .main {
       width: 60%;
-      padding: 100px 20px;
+      padding: 100px 15px;
     }
 
     .title {
-      font-size: 42px;
+      font-size: 46px;
+      letter-spacing: 2px;
     }
 
     .description {
-      font-size: 12px;
+      font-size: 16px;
     }
 
     button {
@@ -111,7 +113,11 @@ button:hover {
     @media only screen and (max-width: 350px) {
 
       .main {
-        padding: 80px 20px;
+        padding: 70px 20px;
+      }
+
+      .description {
+        font-size: 14px;
       }
  
     }

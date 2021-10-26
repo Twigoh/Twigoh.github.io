@@ -1,13 +1,13 @@
 body {
-    background: url(images/marketplace1-min.png) no-repeat bottom left fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin: 0;
-    font-family: "Ubuntu", sans-serif;
-    color: white;
-    text-align: center;
+  background: url(images/marketplace1-min.png) no-repeat bottom left fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  text-align: center;
   }
 
 a {
@@ -83,15 +83,12 @@ button:hover {
   background-color: #5ea995;
   border: 2px solid #5ea995;
 }
-  
-@media only screen and (max-width: 920px) {
+
+@media only screen and (max-width: 850px) {
 
   .logo-mobile {
     display: none;
   }
-
-  @media only screen and (max-width: 500px) {
-
     .main {
       width: 60%;
       padding: 100px 15px;
@@ -110,6 +107,32 @@ button:hover {
       padding: 10px 24px;
     }
 
+    @media only screen
+    and (orientation:landscape)
+     {
+      .main {
+        padding: 40px 20px;
+      }
+      .logo {
+        width: 80px;
+      }
+      .description {
+        font-size: 12px;
+      }
+      .title {
+        font-size: 32px;
+        margin: 20px;
+      }
+      button {
+        font-size: 8px;
+        padding: 10px 15px;
+      }
+      .madewithlove {
+        font-size: 8px;
+      }
+    }
+
+
     @media only screen and (max-width: 350px) {
 
       .main {
@@ -120,6 +143,5 @@ button:hover {
         font-size: 14px;
       }
  
-    }
   }
 }

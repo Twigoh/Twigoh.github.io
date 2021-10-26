@@ -23,7 +23,7 @@ hr {
 .logo {
   width: 120px;
 }
- 
+
 .main {
   background: url(images/green_background.png) left center;
   position: absolute;
@@ -32,6 +32,7 @@ hr {
   transform: translate(-50%, -50%);
   padding: 50px;
   display: inline-block;
+  border-radius: 5px;
 }
 
 .title {
@@ -142,6 +143,6 @@ button:hover {
       .description {
         font-size: 14px;
       }
- 
+
   }
 }
